@@ -1,0 +1,36 @@
+.ratingText {
+  color: white !important;
+}
+
+.ratingContainer {
+  display: flex;
+  gap: 0.5em;
+}
+
+.ratingBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+  gap: 16px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.ratingText {
+  color: white;
+  font-size: 20px;
+}
+
+.kpimage {
+  width: 20px;
+  height: 20px;
+}
+
+.imdbimage {
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=filmPage.module.css.map */

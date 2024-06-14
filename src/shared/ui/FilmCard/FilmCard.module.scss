@@ -1,0 +1,59 @@
+@import "../../../app/styles/mixins";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.cardMedia {
+  height: 500px;
+}
+
+.ratingContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.cardActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ratingContainer {
+  display: flex;
+  gap: 0.5em;
+}
+
+.ratingBlock {
+  @include flex-center;
+  height: 50px;
+  background-color: black;
+  gap: 16px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.ratingText {
+  color: white;
+  font-size: 20px;
+}
+
+.kpimage {
+  width: 20px;
+  height: 20px;
+}
+
+.imdbimage {
+  width: 30px;
+  height: 30px;
+}
+
+.cardContent {
+  @include flex-center;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5em;
+}
